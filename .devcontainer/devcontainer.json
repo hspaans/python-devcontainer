@@ -5,7 +5,7 @@
 		"dockerfile": "Dockerfile",
 		"context": "..",
 		"args": {
-			"PYTHON": "3.7"
+			"PYTHON": "3.8"
 		}
 	},
 
