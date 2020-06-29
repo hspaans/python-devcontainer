@@ -1,6 +1,6 @@
 
 ARG PYTHON=3
-FROM python:${PYTHON}
+FROM python:${PYTHON}-slim
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
