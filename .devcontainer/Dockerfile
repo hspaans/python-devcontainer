@@ -1,4 +1,5 @@
 
+ARG PYTHON=3
 FROM python:${PYTHON}
 
 # Avoid warnings by switching to noninteractive
