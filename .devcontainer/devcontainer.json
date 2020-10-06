@@ -1,28 +1,22 @@
 {
 	"name": "Python",
-
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": "..",
 		"args": {
-			"PYTHON": "3.8"
+			"PYTHON": "3.7"
 		}
 	},
-
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
-
 	"appPort": [],
-
 	"postCreateCommand": "",
-
 	"remoteUser": "vscode",
-
 	"extensions": [
-    "github.vscode-pull-request-github",
+		"github.vscode-pull-request-github",
 		"ms-python.python",
 		"redhat.vscode-yaml",
-    "yzhang.markdown-all-in-one"
+		"yzhang.markdown-all-in-one"
 	]
 }
