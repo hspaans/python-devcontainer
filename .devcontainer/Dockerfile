@@ -1,6 +1,6 @@
 FROM python:3.9.0-slim
 
-LABEL org.opencontainers.image.source https://github.com/hspaans/vscode-devcontainer-python
+LABEL org.opencontainers.image.source https://github.com/hspaans/python-devcontainer
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
