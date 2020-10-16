@@ -26,4 +26,5 @@ Add `.devcontainer/devcontainer.json` to your repository.
 
 | Python Version | Container Tag | Status    |
 |:--------------:|:-------------:|:---------:|
+| 3.9.0          | 3.9.0         | Published |
 | 3.8.6          | 3.8.6         | Published |
