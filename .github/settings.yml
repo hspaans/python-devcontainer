@@ -1,6 +1,6 @@
 ---
 repository:
-  description: Python Devcontainer
-  topics: vscode, codespaces, devcontainer, python
+  description: Devcontainer for Python
+  topics: vscode, codespaces, devcontainer, python, pip, pipenv
   delete_branch_on_merge: true
   has_wiki: false

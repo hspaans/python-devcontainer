@@ -1,4 +1,4 @@
-FROM python:3.9.0-slim
+FROM python:3.8.6-slim
 
 LABEL org.opencontainers.image.source=https://github.com/hspaans/python-devcontainer
 
@@ -13,6 +13,8 @@ ARG USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
+COPY requirements.txt /usr/local/etc/
+
 # Configure apt and install packages
 # hadolint ignore=DL3008,DL3013
 RUN apt-get update \
@@ -22,7 +24,7 @@ RUN apt-get update \
     && apt-get -y install --no-install-recommends git iproute2 procps iproute2 lsb-release rcm \
     #
     # Install Ansible and Ansible Lint
-    && pip install pipenv \
+    && pip install -r /usr/local/etc/requirements.txt \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
     && groupadd --gid "$USER_GID" "$USERNAME" \
