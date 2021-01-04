@@ -1,4 +1,4 @@
-FROM python:3.9.1-slim
+FROM python:3.7.9-slim
 
 LABEL org.opencontainers.image.description="Python devcontainer for VSCode or Codespaces"
 LABEL org.opencontainers.image.source=https://github.com/hspaans/python-devcontainer
