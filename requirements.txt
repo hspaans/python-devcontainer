@@ -1,6 +1,6 @@
 pipenv==2020.11.15
 autopep8==1.5.5
 flake8==3.8.4
-pylint==2.6.2
+pylint==2.7.1
 bandit==1.7.0
 pytest==6.2.2
