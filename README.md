@@ -31,7 +31,7 @@ The container is based on [LTS](https://en.wikipedia.org/wiki/Long-term_support)
 |  Python  |   3.7   |   2023-06-27   |    [hspaans/python-devcontainer:3.7][python-devcontainer:3.7]    |
 |  Python  |   3.8   |    2024-10     |    [hspaans/python-devcontainer:3.8][python-devcontainer:3.8]    |
 |  Python  |   3.9   |    2025-10     |    [hspaans/python-devcontainer:3.9][python-devcontainer:3.9]    |
-|  Python  |   3.9   |                | [hspaans/python-devcontainer:latest][python-devcontainer:latest] |
+|  Python  |   3.10  |                | [hspaans/python-devcontainer:latest][python-devcontainer:latest] |
 
 [python-devcontainer:latest]: ghcr.io/hspaans/python-devcontainer:latest
 [python-devcontainer:3.7]: ghcr.io/hspaans/python-devcontainer:3.7
