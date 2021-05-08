@@ -1,5 +1,9 @@
 # Devcontainer for Python
 
+> THIS PROJECT IS ARCHIVED
+>
+> See [hspaans/python-template](https://github.com/hspaans/python-template) as an alternative.
+
 ## Using within you project
 
 Add `.devcontainer/devcontainer.json` to your repository.
